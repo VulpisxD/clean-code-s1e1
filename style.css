@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.wrapper {
     background-color: #f8f8f8;
     color: #333;
     font-family: Lato, sans-serif;
@@ -21,7 +21,8 @@ body {
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+ .header { 
+    text-align: center;
 }
 }
 
@@ -110,7 +111,7 @@ label[for="new-task"] {
 }
 
 p > button:hover {
-    color: #0FC57C;
+    color: #0fc57c;
 }
 
 /* Task list */
@@ -144,7 +145,7 @@ li >    input[type="text"] {
 }
 
 li > .delete:hover {
-    color: #CF2323;
+    color: #cf2323;
 }
 
 .delete img {
@@ -158,7 +159,7 @@ li > .delete:hover {
 }
 
 /* Completed */
-ul#completed-tasks label {
+#completed-tasks label {
     text-decoration: line-through;
     color: #888;
 }
